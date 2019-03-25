@@ -1,7 +1,17 @@
-.line-graph{
+.line-graph {
+  margin: 10%;
+  padding: 10%;
+  border: 1px solid;
+}
 
-    margin:10%;
-    padding:10%;
-    border:1px solid;
-    
+.static {
+  padding: 5px;
+  background-color: green;
+  text-align: center;
+  margin-top: 0px;
+}
+.live {
+  padding: 5px;
+  background-color: red;
+  text-align: center;
 }

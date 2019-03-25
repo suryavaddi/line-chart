@@ -1,5 +1,9 @@
-
+<h4 class="static">Static Graph</h4>
 
 <div class="line-graph">
-<p-chart type="line" [data]="data" ></p-chart>
+  <p-chart type="line" [data]="data"></p-chart>
+</div>
+<h4 class="live">Live updating Graph</h4>
+<div class="line-graph">
+  <p-chart #chart type="line" [data]="liveData"></p-chart>
 </div>
